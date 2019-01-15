@@ -8,7 +8,7 @@ get '/' do
 end
 
 post '/team' do
-   @team
+   @team = params[:team]
     erb :team
 end
 
